@@ -1,0 +1,21 @@
+#include<iostream>
+#include<list>
+
+using namespace std;
+
+int main (){
+    list<int>numeros = {11,6,3,5,4};
+
+    int soma = 0;
+    int multiplicacao = 1;
+
+    for (int n : numeros){
+        soma +=n;
+        multiplicacao*=n;
+    }
+
+    cout << "\nsoma: " << soma << endl;
+    cout << "\nmultiplicacao: " << multiplicacao << endl;
+
+    return 0;
+}
