@@ -7,7 +7,7 @@ int main(){
 	setlocale(LC_ALL,"Portuguese");
 	int dia;
 	
-	cout << "\ndigite o número do dia da semana (1 a 7):  ";
+	cout << "\ndigite o nÃºmero do dia da semana (1 a 7):  ";
 	cin >> dia;
 	
 	if (dia >= 1 && dia <=7) {
@@ -15,7 +15,7 @@ int main(){
 	}else if(dia == 2){
 		cout <<"\nSegunda Feira" << endl;
 	}else if(dia ==3 ){
-		cout <<"\nTerça Feira" << endl;
+		cout <<"\nTerÃ§a Feira" << endl;
 	}else if(dia == 4){
 		cout <<"\nQuarta Feria" << endl;
 	}else if(dia == 5){
@@ -24,9 +24,9 @@ int main(){
 	    cout <<"\nSexta Feira" <<endl;	
 	}else if(dia == 7){
 	
-		cout <<"\n Sábado" << endl;
+		cout <<"\n SÃ¡bado" << endl;
 	 }else {
-		cout <<"\n Número Invalido" << endl;
+		cout <<"\n NÃºmero Invalido" << endl;
 	}
 	
 	
