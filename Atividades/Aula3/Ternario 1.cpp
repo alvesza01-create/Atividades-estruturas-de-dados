@@ -13,7 +13,7 @@ int main(){
 	
 	string paridade = (nota >= 6) ? "\nAprovado" : "\nReprovado"; 
 	
-	cout << "\nA Pessoa com nota  " << nota << "  \nEstá  " << paridade << endl;
+	cout << "\nA Pessoa com nota  " << nota << "  \nEstÃ¡  " << paridade << endl;
 	
 	return 0;
 }
