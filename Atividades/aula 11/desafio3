@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+double potencia(double base, int expoente) {
+  
+    if (expoente == 0) {
+        return 1;
+    }
+
+    return base * potencia(base, expoente - 1);
+}
+
+int main() {
+    double a;
+    int b;
+
+    cout << "Digite a base (a): ";
+    cin >> a;
+    cout << "Digite o expoente (b): ";
+    cin >> b;
+
+    if (b < 0) {
+        cout << "Erro: Este programa nao considera expoentes negativos." << endl;
+    } else {
+        cout << a << " elevado a " << b << " e: " << potencia(a, b) << endl;
+    }
+
+    return 0;
+}
